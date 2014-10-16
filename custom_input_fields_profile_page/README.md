@@ -1,6 +1,7 @@
 Custom input fields profile page
 =======
 Adds custom input fields to the WordPress user profile.
+
 Use 'get_user_meta( $user_id, $key, $single )' to get the added input fields.
 
 **More info:**

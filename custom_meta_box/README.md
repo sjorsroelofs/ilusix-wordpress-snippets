@@ -1,6 +1,7 @@
 Custom meta box
 =======
-Adds a custom meta box to the WordPress backend.  
+Adds a custom meta box to the WordPress backend.
+
 In this example it adds a meta box to the 'post' content type.
 
 **More info:**  

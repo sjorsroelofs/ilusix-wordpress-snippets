@@ -1,6 +1,7 @@
 Custom settings page
 =======
 Adds a custom settings page to the WordPress backend.
+
 In this example the settings page is added under 'Settings'.
 
 **More info:**
