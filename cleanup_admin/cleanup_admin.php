@@ -17,7 +17,6 @@ function ilusix_remove_dashboard_widgets() {
     remove_meta_box( 'dashboard_recent_comments', 'dashboard', 'normal' );
     remove_meta_box( 'dashboard_activity', 'dashboard', 'normal' );
     remove_meta_box( 'authordiv', 'page', 'None' );
-    remove_meta_box( 'slugdiv', 'page', 'None' );
     remove_meta_box( 'commentsdiv', 'page', 'None' );
     remove_meta_box( 'commentstatusdiv', 'page', 'None' );
     remove_meta_box( 'revisionsdiv', 'page', 'None' );
