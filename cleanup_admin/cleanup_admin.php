@@ -42,7 +42,7 @@ function ilusix_remove_page_columns( $columns ) {
 
     return $columns;
 }
-add_filter('manage_pages_columns', 'ilusix_remove_page_columns');
+add_filter( 'manage_pages_columns', 'ilusix_remove_page_columns' );
 
 
 // Remove unused columns from the MY_CUSTOM post type
@@ -51,4 +51,4 @@ function ilusix_remove_MY_CUSTOM_columns( $columns ) {
 
     return $columns;
 }
-add_filter('manage_MY_CUSTOM_posts_columns', 'ilusix_remove_MY_CUSTOM_columns');
+add_filter( 'manage_MY_CUSTOM_posts_columns', 'ilusix_remove_MY_CUSTOM_columns' );

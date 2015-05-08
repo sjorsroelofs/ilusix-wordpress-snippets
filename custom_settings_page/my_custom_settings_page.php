@@ -6,7 +6,7 @@ $ilusixMyPluginSettingsOptionName   = $ilusixMyPluginMetaKeyName . '_plugin_sett
 
 
 // Create a settings page
-add_action('admin_menu', 'ilusix_create_my_plugin_settings_page');
+add_action( 'admin_menu', 'ilusix_create_my_plugin_settings_page' );
 function ilusix_create_my_plugin_settings_page() {
     global $ilusixMyPluginMetaKeyName;
 
